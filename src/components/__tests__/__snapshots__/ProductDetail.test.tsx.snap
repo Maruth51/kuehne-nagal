@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product detail component Product name displayed: ProductDetailComponent 1`] = `
+<div
+  class="container"
+  data-testid="product-detail"
+>
+  <div
+    class="head"
+  >
+    Product Details
+  </div>
+  <div
+    class="productDetail"
+  >
+    <span>
+      Foxit software PhantomPDF Standard
+       
+    </span>
+    <div
+      class="tags"
+    >
+      <span
+        class="tag"
+      >
+        PDF
+      </span>
+      <span
+        class="tag"
+      >
+        Change
+      </span>
+      <span
+        class="tag"
+      >
+        Create
+      </span>
+      <span
+        class="tag"
+      >
+        Maintenance
+      </span>
+      <span
+        class="tag"
+      >
+        Business, FoxIT
+      </span>
+    </div>
+    <a
+      class="actionBtn"
+      href="https://www.foxitsoftware.com/de/pdf-editor"
+      rel="noreferrer"
+      target="_blank"
+      type="button"
+    >
+      Go to Manufacturer
+    </a>
+    <p
+      class="description"
+    >
+      PhantomPDF provides powerful PDF Editor capabilities to allow authors to update their documents themselves.
+    </p>
+    <div
+      class="option"
+    >
+      <input
+        id="option1"
+        name="maintanance-option"
+        type="radio"
+      />
+      <label
+        for="option1"
+      >
+         
+        1 Year Maintenance
+      </label>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      </p>
+    </div>
+    <div
+      class="option"
+    >
+      <p>
+        <input
+          id="option2"
+          name="maintanance-option"
+          type="radio"
+        />
+        <label
+          for="option2"
+        >
+           
+          Without Maintenance
+        </label>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      </p>
+    </div>
+  </div>
+</div>
+`;

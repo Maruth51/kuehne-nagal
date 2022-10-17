@@ -1,0 +1,25 @@
+@use './colors';
+.nav {}
+
+.tab {
+  color: colors.$subtitueText;
+  width: 112px;
+  height: 47px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  border-bottom: 2px solid rgba(132, 146, 166, 0.15);
+  background: inherit;
+  cursor: pointer;
+  &.active {
+    color: colors.$appPrimary;
+    border-bottom-color: colors.$appPrimary ;
+  }
+}
+
+button:disabled {
+  color: colors.$disabledText;
+  cursor: not-allowed;
+}

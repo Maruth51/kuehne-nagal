@@ -1,0 +1,44 @@
+@use './colors';
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  margin-top: 6px;
+  background: colors.$white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .5s ease;
+  &:hover {
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.10);
+  }
+  & .left {
+    font-weight: 500;
+  }
+  & .right {
+    color: colors.$subtitueText;
+    white-space: nowrap;
+  }
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: colors.$appPrimary;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.tag {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 9px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(18, 184, 255, 0.15);
+  border-radius: 4px;
+}

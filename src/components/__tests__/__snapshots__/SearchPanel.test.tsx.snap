@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search panel component renders all child elements: SearchPanelComponent 1`] = `
+<div
+  class="panel"
+  data-testid="search-panel"
+>
+  <p
+    class="title"
+  >
+     I’m looking for... 
+  </p>
+  <div
+    class="filter"
+  >
+    <ul
+      class="categoryContainer"
+    >
+      <li
+        class="category"
+      >
+        <input
+          id="category-0"
+          name="Software Development"
+          type="checkbox"
+        />
+        <label
+          class="label"
+          for="category-0"
+        >
+          Software Development
+        </label>
+      </li>
+      <li
+        class="category"
+      >
+        <input
+          id="category-1"
+          name="Daily Business"
+          type="checkbox"
+        />
+        <label
+          class="label"
+          for="category-1"
+        >
+          Daily Business
+        </label>
+      </li>
+      <li
+        class="category"
+      >
+        <input
+          id="category-2"
+          name="Graphic Editors"
+          type="checkbox"
+        />
+        <label
+          class="label"
+          for="category-2"
+        >
+          Graphic Editors
+        </label>
+      </li>
+      <li
+        class="category"
+      >
+        <input
+          id="category-3"
+          name="Text Editors"
+          type="checkbox"
+        />
+        <label
+          class="label"
+          for="category-3"
+        >
+          Text Editors
+        </label>
+      </li>
+      <li
+        class="category"
+      >
+        <input
+          id="category-4"
+          name="Management Tools"
+          type="checkbox"
+        />
+        <label
+          class="label"
+          for="category-4"
+        >
+          Management Tools
+        </label>
+      </li>
+    </ul>
+    <div
+      class="inputContainer"
+    >
+      <div
+        class="searchBox"
+      >
+        <img
+          alt="search icon"
+          src="/search_icon.svg"
+        />
+        <input
+          name="search-input"
+          placeholder="Type here..."
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

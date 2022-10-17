@@ -1,0 +1,48 @@
+@use './colors';
+
+main {
+  padding: 65px 48px;
+  padding-bottom: 0;
+}
+
+header {
+  margin-bottom: 35px;
+  grid-area: header;
+}
+
+.container {
+  display: grid; 
+  max-width: 1500px;
+  margin-left: auto;
+  grid-template-columns: 3fr 1fr; 
+  gap: 0px 16px; 
+  grid-template-areas: 
+    "header header"
+    "nav nav" 
+    "left right"; 
+}
+.nav {
+  grid-area: nav;
+  margin-bottom: 26px;
+}
+.left {
+  grid-area: left;
+  width: 1152px;
+}
+
+.right {
+  min-width: 320px;
+  height: 668px;
+  grid-area: right;
+}
+
+.title {
+  font-size: 1.125rem;
+  margin-bottom: 6px;
+}
+
+.titleInfo {
+  color: colors.$subtitueText;
+  margin-top: 6px;
+  ;
+}
